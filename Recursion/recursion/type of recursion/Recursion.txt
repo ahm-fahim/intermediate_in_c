@@ -1,0 +1,26 @@
+TYPE OF RECURSION
+
+1.Direct recursion
+2.Indirect recursion
+3.Tail recursion
+4.Non-tail recursion
+
+STRUCTURE OF DIRECT RECURSION
+
+    func(){
+        //some code
+
+        func();
+
+        // some code
+    }
+
+STRUCTURE OF INDIRECT RECURSION
+
+    func(){            |  func2(){
+        //some code    |      //some code
+                       |       
+        func2();       |       func();
+                       |
+        //some code    |      //some code
+    }                     }
