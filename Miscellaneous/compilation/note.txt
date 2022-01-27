@@ -1,0 +1,4 @@
+step 1: preprocessor
+step 2: compile
+step 3: assembly
+step 4: linking
